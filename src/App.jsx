@@ -14,11 +14,11 @@ function App() {
 return (
   <>
     <h1 className="registration-form">
-      Registration Form
+      Grant Ships Registration
     </h1>  
   
     <iframe 
-      data-tally-src="https://tally.so/embed/wLPkGy?alignLeft=1&hideTitle=0&transparentBackground=0&dynamicHeight=1"
+      data-tally-src="https://tally.so/embed/wLPkGy?alignLeft=1&hideTitle=1&dynamicHeight=1"
       loading="lazy" 
       width="650em" 
       height="200" 
@@ -32,4 +32,3 @@ return (
 }
 
 export default App;
-
