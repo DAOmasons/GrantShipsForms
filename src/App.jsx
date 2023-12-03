@@ -5,8 +5,8 @@ import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
-import IconButton from '@mui/material/IconButton';
-import MenuIcon from '@mui/icons-material/Menu';
+// import IconButton from '@mui/material/IconButton';
+// import MenuIcon from '@mui/icons-material/Menu';
 
 
 function App() {
@@ -21,16 +21,14 @@ function App() {
 // Inside your App function
 return (
     <>
-     <Box sx={{ flexGrow: 1 }}>
+    <Box sx={{ flexGrow: 1 }}>
       <AppBar position="static" sx={{ bgcolor: 'grey.900', color: 'white' }}>
         <Toolbar>
-          <Typography>
-
-          </Typography>
+          <img src="./gsgradsmall.svg" alt="Logo" style={{ height: 50 }} /> {/* Logo */}
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-            
+            {/* Middle remains blank */}
           </Typography>
-          <Button color="inherit" component="a" href="https://rules.grantship.fun" target="_blank">Rule Book</Button>
+          <Button variant ="outlined" color="inherit" component="a" href="https://rules.grantship.fun" target="_blank">Rule Book</Button>
         </Toolbar>
       </AppBar>
     </Box>
@@ -42,10 +40,9 @@ return (
       className="tally-iframe"
       data-tally-src="https://tally.so/embed/wLPkGy?alignLeft=1&hideTitle=1&dynamicHeight=1"
       loading="lazy" 
-      width="650em" 
-      height="200" 
       title="Registration Form"
     ></iframe>
+
   </>
 );
 }
