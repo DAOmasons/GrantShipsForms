@@ -5,9 +5,6 @@ import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
-// import IconButton from '@mui/material/IconButton';
-// import MenuIcon from '@mui/icons-material/Menu';
-
 
 function App() {
   useEffect(() => {
@@ -18,7 +15,6 @@ function App() {
   []
  );
 
-// Inside your App function
 return (
     <>
     <Box sx={{ flexGrow: 1 }}>
@@ -34,15 +30,13 @@ return (
     </Box>
     <h1 className="registration-form">
       Grant Ships Registration
-    </h1>  
-  
+    </h1>    
     <iframe 
       className="tally-iframe"
       data-tally-src="https://tally.so/embed/wLPkGy?alignLeft=1&hideTitle=1&dynamicHeight=1"
       loading="lazy" 
       title="Registration Form"
     ></iframe>
-
   </>
 );
 }
