@@ -24,7 +24,7 @@ return (
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
             {/* Middle remains blank */}
           </Typography>
-          <Button variant ="outlined" color="inherit" component="a" href="https://rules.grantship.fun" target="_blank">Rule Book</Button>
+          <Button variant ="outlined" color="inherit" component="a" href="https://rules.grantships.fun/" target="_blank">Rule Book</Button>
         </Toolbar>
       </AppBar>
     </Box>
