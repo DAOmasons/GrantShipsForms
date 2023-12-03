@@ -28,9 +28,21 @@ return (
         </Toolbar>
       </AppBar>
     </Box>
-    <h1 className="registration-form">
-      Grant Ships Registration
-    </h1>    
+    <Typography variant="h4" component="h1" className="registration-form" gutterBottom>
+        Grant Ships Registration
+      </Typography>
+    <Box sx={{ my: 2, mx: 'auto', maxWidth: '650px' }}> {/* Add styling as needed */}
+        <Typography variant="body1" paragraph>
+          We are currently accepting applications to fill positions in our beta season of Grant Ships. 
+          The main roles we need are Grant Ships operators. You must be able to co-ordinate with other 
+          people in a decentralized manner because you and your team will design and implement your
+          own micro grants program and have the opportunity to distribute almost 30K $Arb tokens during
+          the beta round, to projects that provide impact on Arbitrum.
+        </Typography>
+        <Typography variant="body1" paragraph>
+          If you are interested in taking part, please fill out the form:
+        </Typography>
+      </Box>   
     <iframe 
       className="tally-iframe"
       data-tally-src="https://tally.so/embed/wLPkGy?alignLeft=1&hideTitle=1&dynamicHeight=1"
